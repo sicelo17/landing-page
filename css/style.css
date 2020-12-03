@@ -41,6 +41,9 @@ body {
     height: 3px;
     background-color: rgb(88, 192, 240);
 }
+.link {
+    font-size: 18px;
+}
 h1 {
     font-size: 4rem;
     transition: .5s;
