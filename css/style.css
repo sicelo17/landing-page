@@ -44,3 +44,13 @@ h1 {
 p {
     font-size: 1.5rem;
 }
+.contact {
+    height: 40%;
+}
+footer {
+    background-color: black;
+    color: rgb(173, 182, 190);
+}
+footer p {
+    font-size: 16px;
+}
