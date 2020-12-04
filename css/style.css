@@ -36,17 +36,18 @@ body {
     margin-top: 25%;
 }
 .line {
-    width: 100%;
+    width: 80%;
     height: 3px;
     background-color: rgb(88, 192, 240);
+    transition: 2s;
 }
 
 .link {
     font-size: 18px;
 }
 h1 {
-    font-size: 4rem;
-    transition: .5s;
+    font-size: 3.5rem;
+    transition: 1.5s;
 }
 p {
     font-size: 1.5rem;
