@@ -6,7 +6,7 @@ body {
     width: 200%;
     height: 100%;
     display: flex;
-    transition: .5s;
+    transition: 1s;
 }
 .slid {
     width: 50%;
@@ -17,14 +17,14 @@ body {
     background-position: center;
 }
 #slid1 {
-    background-image: url("https://media.gettyimages.com/photos/interior-of-modern-office-picture-id973712582?k=6&m=973712582&s=612x612&w=0&h=EgJES9Squ85XZg3jm9oafvtk5ongR5-BDve11eyvRno=");
+    background-image: url("https://media.gettyimages.com/photos/glowing-futuristic-city-landscape-picture-id1135935658?k=6&m=1135935658&s=612x612&w=0&h=koJeKyZghFY8QaMOgxNZwjRXsvkvKHtowG8h3t7dXB8=");
 }
 #slid2 {
     background-image: url("https://media.gettyimages.com/photos/lockers-in-empty-high-school-corridor-picture-idsb10069478b-001?k=6&m=sb10069478b-001&s=612x612&w=0&h=9ZEkG3AXEtgj0KB3kDP4zR0zZoOfoOA-qj2HykaS5G4=");
 }
 
 .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: rgba(15, 15, 15, 0.596);
     position: relative;
     top: 0;
     left: 0;
@@ -33,7 +33,6 @@ body {
     opacity: 0.8;
 }
 .content {
-
     margin-top: 25%;
 }
 .line {
@@ -41,6 +40,7 @@ body {
     height: 3px;
     background-color: rgb(88, 192, 240);
 }
+
 .link {
     font-size: 18px;
 }
