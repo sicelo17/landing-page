@@ -1,4 +1,4 @@
-
+// function for the background change
 function marg1(){
     var slider = document.querySelector('#slider');
     slider.style.marginLeft='-100%';
@@ -14,9 +14,11 @@ function marg1(){
     }
     setTimeout(marg2, 8000);
 }
+setInterval(slid, 6500);
 setTimeout(marg1, 8000);
 setInterval(line, 7000);
-setInterval(line2, 8700)
+setInterval(slid2, 8300);
+setInterval(line2, 8700);
 
 function slid(){
     var s = document.querySelectorAll('.slid');
@@ -25,7 +27,14 @@ function slid(){
         s[i].style.transform='scale(.8)';
     }
 }
-
+function slid2(){
+    var s = document.querySelectorAll('.slid');
+    var i;
+    for (i=0; i<s; i++){
+        s[i].style.transform='scale(1)';
+    }
+}
+// animating the lines
 function line(){
     var l = document.querySelectorAll('.line');
     var i;
